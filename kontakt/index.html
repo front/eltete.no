@@ -11,16 +11,21 @@ title: Kontakt Eltete
             </div><!---/map-->
 
             <p>Send oss gjerne en henvendelse via skjemaet under, eller benytt kontaktinformasjonen på høyre side.</p><br />
-      <form method="post" action="http://getsimpleform.com/messages?form_api_token=15fffdfeac4ca28894edf1ad3a57f2fc">
-        <input type='hidden' name='redirect_to' value='http://eltete.no/kontakt/takk/' />
+
+      <form action="http://getsimpleform.com/messages?form_api_token=15fffdfeac4ca28894edf1ad3a57f2fc" method="post">
+  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+  <input type='hidden' name='redirect_to' value='http://eltete.front.no/kontakt/takk' />
+  <!-- all your input fields here.... -->
                 <label>Navn</label>
-                <input type="text" class="span7" />
+                <input type="text" class="span7" id="navn" name="navn">
                 <label>E-post<span class="color-red">*</span></label>
-                <input type="text" class="span7" />
+                <input type="text" class="span7" id="epost" name="epost">
                 <label>Melding</label>
-                <textarea rows="8" class="span10"></textarea>
+                <textarea rows="8" class="span10" id="melding" name="melding"></textarea>
                 <p><button type="submit" class="btn-u">Send</button></p>
-            </form>
+</form>
+
+
         </div><!--/span9-->
 
         <div class="span3">
