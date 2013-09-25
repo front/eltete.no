@@ -1914,3 +1914,15 @@ i.style-switcher-btn-option:hover {
 		margin-top: 5px;
 	}
 }
+
+/* Page */
+.page {
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+/* Page title */
+.page-title {
+	font-size: 31.5px;
+	font-weight: 600;
+}
