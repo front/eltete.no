@@ -494,6 +494,7 @@ blockquote:hover {
 }
 .thumbnail-style h3 {
 	margin:5px 0 0 0;
+	line-height: 1;
 }
 .thumbnail-style h3 a {
 	font-size:20px;
