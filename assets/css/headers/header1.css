@@ -184,6 +184,13 @@
     transition:all 0.4s ease-in-out;
 }
 
+.nav-desc {
+  display: block;
+  font-size: 0.8em;
+  line-height: 1;
+  text-transform: capitalize;
+}
+
 .collapse.in ul { 
 	margin-top:10px !important;
 }
@@ -207,6 +214,10 @@
 .collapse.in ul.dropdown-menu a {
 	padding:5px;
 	border-bottom:solid 1px #bbb; 
+}
+
+.nav-collapse .nav > li > a {
+	min-height: 36px;
 }
 
 .nav-collapse .nav > li > a, .nav-collapse .dropdown-menu a {
