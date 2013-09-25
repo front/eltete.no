@@ -1906,12 +1906,13 @@ i.style-switcher-btn-option:hover {
 	display: block;
 }
 
-@media (min-width: 980px) {
+@media (min-width: 590px) {
 	.list-img {
 		/*display: inline-block;*/
 		float: right;
 		width: 200px;
 		margin-top: 5px;
+		margin-left: 20px;
 	}
 }
 
