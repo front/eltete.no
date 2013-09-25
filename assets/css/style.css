@@ -1926,3 +1926,8 @@ i.style-switcher-btn-option:hover {
 	font-size: 31.5px;
 	font-weight: 600;
 }
+
+/* Da dots */
+.da-dots {
+	display: none;
+}
