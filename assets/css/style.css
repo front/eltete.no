@@ -564,11 +564,11 @@ blockquote:hover {
    transition: all 0.8s ease-in-out;
 }
 .thumbnail-kenburn:hover img {
-   -webkit-transform: scale(1.2) rotate(2deg);
-   -moz-transform: scale(1.2) rotate(2deg);
-   -o-transform: scale(1.2) rotate(2deg);
-   -ms-transform: scale(1.2) rotate(2deg);
-   transform: scale(1.2) rotate(2deg);
+   -webkit-transform: scale(1.2);
+   -moz-transform: scale(1.2);
+   -o-transform: scale(1.2);
+   -ms-transform: scale(1.2);
+   transform: scale(1.2);
 }
  
 /*Welcome Block*/
