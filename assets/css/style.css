@@ -1954,3 +1954,8 @@ i.style-switcher-btn-option:hover {
 		padding-bottom: 5px;
 	}
 }
+
+/* Footer logos */
+.align-right {
+	text-align: right;
+}
