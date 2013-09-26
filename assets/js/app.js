@@ -101,10 +101,10 @@ var App = function () {
                 animation: "slide",
                 easing: "swing",
                 animationLoop: true,
-                itemWidth: 1,
+                itemWidth: 216,
                 itemMargin: 1,
                 minItems: 2,
-                maxItems: 9,
+                maxItems: 5,
                 controlNav: false,
                 directionNav: false,
                 move: 2
