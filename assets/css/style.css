@@ -1942,3 +1942,15 @@ i.style-switcher-btn-option:hover {
 .da-dots {
 	display: none;
 }
+
+/* Right */
+@media (min-width: 590px) {	
+	.right {
+		float: right;
+	} 
+
+	.right-space {
+		padding-left: 10px;
+		padding-bottom: 5px;
+	}
+}
