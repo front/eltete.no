@@ -128,6 +128,12 @@
 	border-bottom:solid 2px #eee;
 }
 
+@media (min-width: 980px) {
+	.header {
+		padding-top: 18px;
+	}
+}
+
 .header .container {
 	position:relative;
 }
@@ -141,6 +147,7 @@
 
 @media (min-width: 980px) {
 	.logo {
+		top: -3px;
 		width: auto;
 	}
 }

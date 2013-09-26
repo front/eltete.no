@@ -1891,27 +1891,38 @@ i.style-switcher-btn-option:hover {
 }
 
 /* Lists */
-.list + .list {
+.list {
 	border-top: 1px solid #ccc;
 	margin-top: 20px;
 	padding-top: 15px;
 }
 
-.list-title {
-	font-size: 1.5em;
-	line-height: 1.2;
+.list-first {
+	border-top: none;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+@media (min-width: 767px) {
+	.list:first-child {
+		border-top: none;
+		margin-top: 0;
+		padding-top: 0;
+	}
 }
 
 .list-img {
 	display: block;
+	margin-bottom: 5px;
 }
 
-@media (min-width: 980px) {
+@media (min-width: 590px) {
 	.list-img {
 		/*display: inline-block;*/
 		float: right;
-		width: 200px;
-		margin-top: 5px;
+		/*width: 200px;*/
+		max-width: 40%;
+		margin-left: 20px;
 	}
 }
 
