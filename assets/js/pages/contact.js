@@ -8,12 +8,12 @@ var Contact = function () {
 			$(document).ready(function(){
 			  map = new GMaps({
 				div: '#map',
-				lat: -13.004333,
-				lng: -38.494333
+				lat: 59.218144,
+				lng: 10.939893
 			  });
 			   var marker = map.addMarker({
-		            lat: -13.004333,
-					lng: -38.494333,
+		            lat: 59.218144,
+					lng: 10.939893,
 		            title: 'Loop, Inc.'
 		        });
 			});
