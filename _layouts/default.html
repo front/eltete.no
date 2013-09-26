@@ -83,36 +83,36 @@
                 </a><!-- /nav-collapse -->                                  
                 <div class="nav-collapse collapse">                                     
                     <ul class="nav top-2">
-                        <li>
+                        <li {% if page.menu-item == 'hjem' %}class="active" {% endif %}>
                             <a href="/">Hjem</a>
                         </li>
-                        <li>
+                        <li {% if page.menu-item == 'toalettskillevegger' %}class="active" {% endif %}>
                             <a href="/toalettskillevegger">
                                 Toalettskillevegger
                                 <span class="nav-desc">Spanskvegger</span></a>
                         </li>
-                        <li>
+                        <li {% if page.menu-item == 'dusjvegger' %}class="active" {% endif %}>
                             <a href="/dusjvegger">
                                 Dusjvegger
                                 <span class="nav-desc">Kompaktlaminat</span>
                             </a>
                         </li>
-                        <li>
+                        <li {% if page.menu-item == 'dekkepapp' %}class="active" {% endif %}>
                             <a href="/dekkepapp">
                                 Dekkepapp
                                 <span class="nav-desc">Gulvbeskyttelse</span>
                             </a>
                         </li>
-                        <li>
+                        <li {% if page.menu-item == 'prosjekter' %}class="active" {% endif %}>
                             <a href="/prosjekter">
                                 Prosjekter
                                 <span class="nav-desc">Kunder</span>
                             </a>
                         </li>
-                        <li>
+                        <li {% if page.menu-item == 'kontakt' %}class="active" {% endif %}>
                             <a href="/kontakt">Kontakt</a>
                         </li>
-                        
+                    </ul>
                 </div><!-- /nav-collapse -->                                
             </div><!-- /navbar-inner -->
         </div><!-- /navbar -->                          
