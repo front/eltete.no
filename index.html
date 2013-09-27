@@ -3,6 +3,7 @@ layout: default
 title: Eltete
 menu-item: hjem
 description: Toalettskillevegger dusjvegger kompaktlaminat
+kunder: [ikea, statoil, skanska, veidekke, ncc, ikea]
 ---
 
 <!--=== Slider ===-->
@@ -121,43 +122,15 @@ description: Toalettskillevegger dusjvegger kompaktlaminat
 	<div id="clients-flexslider" class="flexslider home clients">
         <div class="headline"><h3>Våre kunder</h3></div>	
 		<ul class="slides">
-			<li>
-	        <a href="#">
-	         	<img src="/assets/img/kunder/Statoil_web_grey.jpg" alt="" /> 
-	          <img src="/assets/img/kunder/Statoil_web.jpg" class="color-img" alt="" />
+			{% for item in page.kunder%}
+				<li>
+	        <a>
+	         	<img src="/assets/img/kunder/{{ item }}_grey.jpg" alt="" /> 
+	          <img src="/assets/img/kunder/{{ item }}.jpg" class="color-img" alt="" />
 	       	</a>
 	      </li>
-				<li>
-		      <a href="#">
-			     	<img src="/assets/img/kunder/ikea_web_grey.jpg" alt="" /> 
-		       	<img src="/assets/img/kunder/ikea_web.jpg" class="color-img" alt="" />
-		     	</a>
-	      </li>					
-				<li>
-	        <a href="#">
-	          <img src="/assets/img/kunder/NCC_web_grey.jpg" alt="" /> 
-	          <img src="/assets/img/kunder/NCC_web.jpg" class="color-img" alt="" />
-	        </a>
-				</li>
-				<li>
-	        <a href="#">
-	          <img src="/assets/img/kunder/Skanska_web_grey.jpg" alt="" /> 
-	          <img src="/assets/img/kunder/Skanska_web.jpg" class="color-img" alt="" />
-	        </a>
-	      </li>
-				<li>
-	        <a href="#">
-	          <img src="/assets/img/kunder/Veidekke_web_grey.jpg" alt="" /> 
-	          <img src="/assets/img/kunder/Veidekke_web.jpg" class="color-img" alt="" />
-	        </a>
-	      </li>
-				<li>
-	        <a href="#">
-	          <img src="/assets/img/kunder/Statoil_web_grey.jpg" alt="" /> 
-	          <img src="/assets/img/kunder/Statoil_web.jpg" class="color-img" alt="" />
-	        </a>
-	      </li>
-			</ul>
+			{% endfor %}	
+		</ul>
 	</div><!--/flexslider-->
 	<!-- //End Our Clients -->
 </div><!--/container-->	

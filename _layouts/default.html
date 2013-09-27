@@ -34,15 +34,6 @@
 <div class="top">
     <div class="container">         
         <ul class="loginbar pull-right">
-            <li><i class="icon-globe"></i><a>Languages <i class="icon-sort-up"></i></a>
-                <ul class="nav-list">
-                    <li class="active"><a href="#">English</a> <i class="icon-ok"></i></li>
-                    <li><a href="#">Spanish</a></li>
-                    <li><a href="#">Russian</a></li>
-                    <li><a href="#">German</a></li>
-                </ul>
-            </li>   
-            <li class="devider">&nbsp;</li>
             <li><a href="page_faq.html" class="login-btn">Help</a></li>  
             <li class="devider">&nbsp;</li>
             <li><a href="page_login.html" class="login-btn">Login</a></li>   
@@ -60,7 +51,15 @@
         <div class="logo">                                             
             <a href="/"><img id="logo-header" src="/assets/img/logo.png" alt="Logo"></a>
         </div><!-- /logo -->        
-                                    
+       <div class="navbar">
+				<div></div> 
+					<ul>
+						<li {% if page.menu-item == 'hjem' %}class="active" {% endif %}>
+                <a href="/">Hjem</a>
+            </li>
+					</ul>
+       </div>
+			
         <!-- Menu -->       
         <div class="navbar">                                
             <div class="navbar-inner">                                  
