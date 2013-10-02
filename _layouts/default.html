@@ -131,14 +131,13 @@
 <script type="text/javascript" src="/assets/plugins/back-to-top.js"></script>
 <!-- JS Page Level -->           
 <script type="text/javascript" src="/assets/js/app.js"></script>
-<script type="text/javascript" src="/assets/js/pages/index.js"></script>
-<script type="text/javascript">
-    jQuery(document).ready(function() {
-      	App.init();
-        App.initSliders();
-        Index.initParallaxSlider();
-    });
-</script>
+
+{% if page.script == 'map' %}
+    {% include script-maps.html %}
+{% else %}
+    {% include script-default.html %}
+{% endif %}
+
 <!--[if lt IE 9]>
     <script src="/assets/js/respond.js"></script>
 <![endif]-->
