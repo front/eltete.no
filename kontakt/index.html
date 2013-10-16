@@ -2,6 +2,7 @@
 layout: default
 title: Kontakt Eltete
 menu-item: kontakt
+script: map
 ---
 <!--=== Content Part ===-->
 <div class="container">   
@@ -10,33 +11,10 @@ menu-item: kontakt
             <div id="map" class="map map-box map-box-space margin-bottom-40">
               
             </div><!---/map-->
-
-
-
-						<!-- JS Global Compulsory -->           
-						<script type="text/javascript" src="../assets/js/jquery-1.8.2.min.js"></script>
-						<script type="text/javascript" src="../assets/js/modernizr.custom.js"></script>        
-						<script type="text/javascript" src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
-						<!-- JS Implementing Plugins -->           
-						<script type="text/javascript" src="../assets/plugins/flexslider/jquery.flexslider-min.js"></script>
-						<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
-						<script type="text/javascript" src="../assets/plugins/gmap/gmap.js"></script>
-						<script type="text/javascript" src="../assets/plugins/back-to-top.js"></script>
-						<!-- JS Page Level -->
-											<script type="text/javascript" src="../assets/js/app.js"></script>
-											<script type="text/javascript" src="../assets/js/pages/contact.js"></script>
-											<script type="text/javascript">
-											    jQuery(document).ready(function() {
-											        App.init();
-											        App.initSliders();                
-											        Contact.initMap();        
-											    });
-											</script>
-					
 					
             <p>Send oss gjerne en henvendelse via skjemaet under, eller benytt kontaktinformasjonen på høyre side.</p><br />
 
-      <form action="http://getsimpleform.com/messages?form_api_token=15fffdfeac4ca28894edf1ad3a57f2fc" method="post">
+      <form action="http://getsimpleform.com/messages?form_api_token=d15080d3570206b9720303288a8995fb" method="post">
   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
   <input type='hidden' name='redirect_to' value='http://eltete.front.no/kontakt/takk' />
   <!-- all your input fields here.... -->
@@ -73,4 +51,5 @@ menu-item: kontakt
 								<li><i class="icon-ok color-green"></i> Anerkjente produkter, med gode referanser</li>
             </ul>
         </div><!--/span3-->        
-    </div><!--/row-fluid-->   
+    </div><!--/row-fluid--> 
+</div>   <!-- /container -->
