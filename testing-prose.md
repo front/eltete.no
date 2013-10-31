@@ -7,5 +7,7 @@ La oss lage en liste over det som må testes:
 2. Vi må finne ut hvordan man får lagt inn yaml-header
 3. Hvordan putter man inn bilder f.eks.?
 
+Her kommer mer tekst...
+
 
 
